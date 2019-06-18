@@ -1,0 +1,53 @@
+.mainbox{
+    background-color: blue;
+    width: 800px;
+    margin: 0 auto;
+}
+.menu{
+    background-color: darkgreen;
+}
+
+.leftside{
+    background-color: brown;
+    width: 100px;
+    float: left;
+}
+
+.main{
+    background-color: azure;
+    width: 600px;
+    float: left;
+}
+
+.rightside{
+    background-color: aqua;
+    width: 100px;
+    float: left;
+}
+
+.footer{
+    background-color: chocolate;
+}
+
+.menu{
+    height: 37px;
+    text-align: center;
+}
+
+.menu>ul>li{
+    display:inline;
+    padding:10px 10px 10px;
+    background-color: cyan;
+    position: relative;
+    top:8px;
+    font-size: 15px;
+}
+
+.menu>ul>li{
+    font-family: Tahoma, serif;
+}
+
+.menu>ul>li>a{
+    text-decoration: none;
+    color: firebrick;
+}
